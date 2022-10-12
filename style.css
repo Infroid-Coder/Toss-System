@@ -1,0 +1,48 @@
+body{
+    /* background: linear-gradient(rgb(165, 165, 165), rgb(139, 139, 139), rgb(165, 165, 165)); */
+    background-image: url("Net\ Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+button{
+    background: rgb(21, 255, 0);
+    border: none;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: DC;
+    font-weight: 900;
+    font-size: 20px;
+}
+#cover{
+    text-align: center;    
+    width: 20%;
+    border: white solid 4px;
+    border-radius: 10px;
+    height: 400px;
+    margin: 0 auto;
+}
+#toss-op{
+    border-radius: 100%;
+    background: rgb(98, 0, 255);
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 70px 50px;
+    display: inline-block;
+    font-family: EB;
+    font-size: 25px;
+    border: solid white 2px;
+}
+
+@keyframes coinflip {
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(360deg);
+    }
+}
