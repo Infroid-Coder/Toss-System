@@ -19,12 +19,7 @@ button{
     font-size: 20px;
 }
 #cover{
-    text-align: center;    
-/*     width: 20%;
-    border: white solid 4px;
-    border-radius: 10px;
-    height: 400px;
-    margin: 0 auto; */
+    text-align: center;
 }
 #toss-op{
     border-radius: 100%;
